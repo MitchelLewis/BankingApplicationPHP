@@ -16,8 +16,7 @@ if (isset($_POST["deposit"])) {
             echo "Something went wrong.";
         }
     } else {
-        echo $deposit;
-        echo "invalid input";
+        echo "Invalid input";
     }
 
 
